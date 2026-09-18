@@ -1,8 +1,9 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/katalog", "destination": "/index.html" },
+    { "source": "/produk/:id", "destination": "/index.html" },
+    { "source": "/keranjang", "destination": "/index.html" },
+    { "source": "/checkout", "destination": "/index.html" },
+    { "source": "/sukses", "destination": "/index.html" }
   ]
 }
