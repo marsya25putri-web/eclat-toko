@@ -8,7 +8,7 @@ import './style.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/toko-penjahit/app">
+    <BrowserRouter>
       <CartProvider>
         <App />
       </CartProvider>
