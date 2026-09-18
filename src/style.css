@@ -1,0 +1,638 @@
+/* ============================================
+   ÉCLAT BY BEATRICIA
+   Style: UNIQLO-inspired · Clean · Modern
+   Font: Inter
+   ============================================ */
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #757575;
+    --gray-light: #e0e0e0;
+    --gray-dark: #1a1a1a;
+    --red: #e60012;
+    --red-dark: #c40010;
+    --transition: all 0.25s ease;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--black);
+    background: var(--white);
+    letter-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ============ ANNOUNCEMENT BAR ============ */
+.announcement-bar {
+    background: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* ============ NAVBAR ============ */
+.navbar {
+    background: var(--white);
+    padding: 20px 0;
+    border-bottom: 1px solid var(--gray-light);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.logo-main {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.logo-sub {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--gray);
+    letter-spacing: 0.5px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav-menu a,
+.nav-menu span {
+    color: var(--black);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 6px 0;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.nav-menu a::after,
+.nav-menu span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--red);
+    transition: var(--transition);
+}
+
+.nav-menu a:hover::after,
+.nav-menu a.active::after,
+.nav-menu span:hover::after {
+    width: 100%;
+}
+
+.nav-menu a.active {
+    color: var(--red);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.nav-icons a {
+    color: var(--black);
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-icons a:hover {
+    color: var(--red);
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 50%;
+    min-width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 4px;
+}
+
+/* ============ HERO ============ */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+                url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1600') center/cover;
+    padding: 180px 40px;
+    text-align: left;
+    color: white;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 1600px;
+    margin: auto;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 35px;
+    letter-spacing: 0;
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: var(--black);
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: 2px solid var(--black);
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: var(--red);
+    border-color: var(--red);
+    color: white;
+}
+
+.hero .btn {
+    background: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.hero .btn:hover {
+    background: var(--red);
+    border-color: var(--red);
+    color: white;
+}
+
+/* ============ CONTAINER ============ */
+.container {
+    max-width: 1600px;
+    margin: auto;
+    padding: 80px 40px;
+}
+
+/* ============ SECTION TITLE ============ */
+.section-title {
+    text-align: left;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 0;
+}
+
+.section-title .divider {
+    display: none;
+}
+
+.section-title p {
+    color: var(--gray);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+/* ============ PRODUK GRID ============ */
+.produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px 20px;
+}
+
+.produk-card {
+    text-align: left;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.produk-card .image-wrapper {
+    overflow: hidden;
+    margin-bottom: 12px;
+    background: #f5f5f5;
+    aspect-ratio: 3/4;
+}
+
+.produk-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.produk-card:hover img {
+    transform: scale(1.05);
+}
+
+.produk-card .kategori {
+    color: var(--gray);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.produk-card h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black);
+    margin-bottom: 6px;
+    letter-spacing: 0;
+    line-height: 1.4;
+    font-family: 'Inter', sans-serif;
+}
+
+.produk-card .harga {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+
+.produk-card .btn-detail {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--black);
+    background: transparent;
+    color: var(--black);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: 'Inter', sans-serif;
+}
+
+.produk-card .btn-detail:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+/* ============ FEATURES ============ */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    padding: 80px 40px;
+    background: #f5f5f5;
+    text-align: left;
+    max-width: 100%;
+}
+
+.feature-item > div:first-child {
+    font-size: 32px !important;
+    color: var(--red) !important;
+    margin-bottom: 15px !important;
+}
+
+.feature-item h4 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+.feature-item p {
+    font-size: 13px;
+    color: var(--gray);
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+/* ============ FOOTER ============ */
+.footer {
+    background: var(--black);
+    color: var(--white);
+    padding: 70px 40px 0;
+}
+
+.footer-container {
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.2fr;
+    gap: 60px;
+}
+
+.footer h4 {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer p {
+    font-size: 13px;
+    line-height: 2;
+    color: #a0a0a0;
+    font-weight: 400;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 12px;
+}
+
+.footer a {
+    color: #a0a0a0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer a:hover {
+    color: var(--white);
+}
+
+.footer-brand-name {
+    font-size: 22px !important;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    color: var(--white) !important;
+    margin-bottom: 5px !important;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.footer-brand-sub {
+    font-size: 11px;
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    border-top: 1px solid #2a2a2a;
+    font-size: 12px;
+    color: #666;
+    letter-spacing: 0.5px;
+}
+
+/* ============ LOADING ============ */
+.loading {
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--gray);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 968px) {
+    .nav-container {
+        grid-template-columns: auto 1fr auto;
+        padding: 0 20px;
+        gap: 15px;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .logo-main {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .announcement-bar {
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+
+    .container {
+        padding: 50px 20px;
+    }
+
+    .hero {
+        padding: 100px 25px;
+        min-height: 500px;
+    }
+    .hero h1 {
+        font-size: 3rem;
+        letter-spacing: -2px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .produk-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 30px 12px;
+    }
+
+    .produk-card h3 {
+        font-size: 13px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+/* ============ KATEGORI (Uniqlo Style) ============ */
+.kategori-section {
+    padding: 70px 40px;
+    background: #ffffff;
+}
+
+.kategori-wrapper {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.kategori-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+
+.kategori-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px 20px;
+}
+
+.kategori-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.kategori-item:hover {
+    transform: translateY(-4px);
+}
+
+.kategori-item-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: #f5f5f5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.kategori-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.kategori-item:hover .kategori-item-image img {
+    transform: scale(1.06);
+}
+
+.kategori-item-noimg {
+    color: #ccc;
+    font-size: 1.8rem;
+}
+
+.kategori-item-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0;
+    margin-bottom: 3px;
+    line-height: 1.3;
+}
+
+.kategori-item-count {
+    font-size: 0.72rem;
+    color: #757575;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 1024px) {
+    .kategori-list { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width: 768px) {
+    .kategori-section { padding: 50px 20px; }
+    .kategori-heading { font-size: 1.3rem; margin-bottom: 30px; }
+    .kategori-list { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; }
+    .kategori-item-name { font-size: 0.8rem; }
+    .kategori-item-count { font-size: 0.65rem; }
+}
+
+@media (max-width: 480px) {
+    .kategori-list { grid-template-columns: repeat(2, 1fr); }
+}
