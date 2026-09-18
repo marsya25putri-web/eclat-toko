@@ -1,0 +1,223 @@
+[
+    {
+        "id": 1,
+        "nama_produk": "Kemeja Pria ",
+        "harga": 85000,
+        "stok": 5,
+        "deskripsi": "Kemeja pria dengan lengan pendek dengan kain premium",
+        "gambar": "1789523065_KMJ.jpg",
+        "kategori_id": 3,
+        "nama_kategori": "Kemeja"
+    },
+    {
+        "id": 2,
+        "nama_produk": "Gamis Wanita",
+        "harga": 145000,
+        "stok": 10,
+        "deskripsi": "Gamis wanita muslimah berwarna abu muda premium",
+        "gambar": "1789522356_gamis22.jpg",
+        "kategori_id": 12,
+        "nama_kategori": "Fashion Muslim"
+    },
+    {
+        "id": 3,
+        "nama_produk": "Tunik Muslimah",
+        "harga": 98000,
+        "stok": 0,
+        "deskripsi": "Tunik bahan crinkle premium dengan modern",
+        "gambar": "1789522159_gamiisss1.jpg",
+        "kategori_id": 12,
+        "nama_kategori": "Fashion Muslim"
+    },
+    {
+        "id": 4,
+        "nama_produk": "Piyama Satin Wanita",
+        "harga": 71000,
+        "stok": 15,
+        "deskripsi": "Baju tidur wanita berbahan satin, lembut dan nyaman.",
+        "gambar": "1789522630_pym stn.jpg",
+        "kategori_id": 14,
+        "nama_kategori": "Pakaian Tidur (Sleepwear)"
+    },
+    {
+        "id": 5,
+        "nama_produk": "Piyama Pendek Wanita",
+        "harga": 55000,
+        "stok": 6,
+        "deskripsi": "Piyama Pendek Musim Panas",
+        "gambar": "1789522543_pym pndk.jpg",
+        "kategori_id": 14,
+        "nama_kategori": "Pakaian Tidur (Sleepwear)"
+    },
+    {
+        "id": 6,
+        "nama_produk": "Dress Wanita",
+        "harga": 120000,
+        "stok": 9,
+        "deskripsi": "Midi Dress Wanita Elegan",
+        "gambar": "1789522873_1dreeeeeess.jpg",
+        "kategori_id": 6,
+        "nama_kategori": "Pakaian Wanita"
+    },
+    {
+        "id": 9,
+        "nama_produk": "One Set Ribbed Knit & Trousers",
+        "harga": 250000,
+        "stok": 5,
+        "deskripsi": "Oneset pakaian pria elegan",
+        "gambar": "1789524063_1setlk.jpg",
+        "kategori_id": 7,
+        "nama_kategori": "Pakaian Pria"
+    },
+    {
+        "id": 10,
+        "nama_produk": "Jaket Wanita Daily",
+        "harga": 112000,
+        "stok": 10,
+        "deskripsi": "Outer Wanita Tebal ",
+        "gambar": "1789524351_jakettwmn.jpg",
+        "kategori_id": 11,
+        "nama_kategori": "Pakaian Luar (Outerwear)"
+    },
+    {
+        "id": 11,
+        "nama_produk": "Jaket Pria Casual",
+        "harga": 135000,
+        "stok": 7,
+        "deskripsi": "Jaket casual pria terbuat dari 100% cotton dengan desain plain dan long-sleeve, cocok untuk gaya outdoor atau sehari-hari. ",
+        "gambar": "1789524560_jktpria.jpg",
+        "kategori_id": 11,
+        "nama_kategori": "Pakaian Luar (Outerwear)"
+    },
+    {
+        "id": 12,
+        "nama_produk": "Kaos Casual Pria",
+        "harga": 175000,
+        "stok": 3,
+        "deskripsi": "Kaos berbahan lembut untuk pria",
+        "gambar": "1789524733_KAOS KASUAL.jpg",
+        "kategori_id": 7,
+        "nama_kategori": "Pakaian Pria"
+    },
+    {
+        "id": 13,
+        "nama_produk": "Sleepsuits Rajut Bayi",
+        "harga": 85000,
+        "stok": 4,
+        "deskripsi": "Sleepsuit Bayi Newborn",
+        "gambar": "1789525226_by.jpg",
+        "kategori_id": 8,
+        "nama_kategori": "Pakaian Anak & Bayi"
+    },
+    {
+        "id": 14,
+        "nama_produk": "Sleepsuits Motif Awan",
+        "harga": 95000,
+        "stok": 8,
+        "deskripsi": "Sleepsuits Bayi Bermotif Awan Lembut",
+        "gambar": "1789525312_bb.jpg",
+        "kategori_id": 8,
+        "nama_kategori": "Pakaian Anak & Bayi"
+    },
+    {
+        "id": 15,
+        "nama_produk": "One Set Anak Perempuan",
+        "harga": 130000,
+        "stok": 5,
+        "deskripsi": "Oneset Anak Perempuan Warna Coklat",
+        "gambar": "1789525474_5df9fab50ad4f981e3c77e31f65ea89a.jpg",
+        "kategori_id": 8,
+        "nama_kategori": "Pakaian Anak & Bayi"
+    }
+]
+Chat
+
+New Conversation
+
+🤓 Explain a complex thing
+
+Explain Artificial Intelligence so that I can explain it to my six-year-old child.
+
+
+🧠 Get suggestions and create new ideas
+
+Please give me the best 10 travel ideas around the world
+
+
+💭 Translate, summarize, fix grammar and more…
+
+Translate "I love you" French
+
+
+GPT-4o Mini
+Hello, how can I help you today?
+Respond in the English language.You are a YouTube video analysis assistant. Your task is to summarize the content of the video and generate a summary includes highlights with key moments and topics discussed in the video. Follow these steps to execute the task:
+
+1. Analyze the video content:
+   Review the video content provided in the webpage. Identify the main themes, topics, and key moments that are discussed throughout the video.
+  2. Create a summary:
+   Write a concise summary of the video, capturing the essence of the content in 3-5 sentences. Focus on the main points and any significant conclusions drawn in the video.
+
+3. Identify highlights:
+   List key moments in the video that are particularly noteworthy as a list in the table. For each highlight, give the timestamp second first and next to it provide a brief description of what happens in that timestamp second and why it is significant. Do not change the second format or value, Do NOT convert to seconds to hours format, just give it as second. Aim for 5-10 highlights.
+
+4. Format the response:
+   Organize the summary and highlights into a visually appealing sidebar format. Include headings for 'Summary' and 'Highlights', and ensure that the highlights are easy to read and navigate.
+
+5. Output the results:
+   Present the summary and highlights in a clear and structured manner, ready to be displayed next to the video.
+
+Notes:
+- Ensure that the summary is informative and engaging, encouraging viewers to watch the video.
+- The highlights should be specific and provide enough context for viewers to understand the significance of each moment.
+- Avoid including any personal opinions or unnecessary commentary; focus solely on the content of the video.
+
+Video content: 
+
+GPT-4o Mini
+I'm sorry, but I cannot access or analyze external video content. If you provide me with details about the video, such as key themes, topics, and moments, I can help you create a summary and identify highlights based on that information.
+GPT-4o Mini
+coin image
+10
+Upgrade
+
+
+
+
+
+    {
+        "id": 1,
+        "nama_produk": "Kemeja Pria ",
+        "harga": 85000,
+        "stok": 5,
+        "deskripsi": "Kemeja pria dengan lengan pendek dengan kain premium",
+        "gambar": "1789523065_KMJ.jpg",
+        "kategori_id": 3,
+        "nama_kategori": "Kemeja"
+    },
+    {
+        "id": 2,
+        "nama_produk": "Gamis Wanita",
+        "harga": 145000,
+        "stok": 10,
+        "deskripsi": "Gamis wanita muslimah berwarna abu muda premium",
+        "gambar": "1789522356_gamis22.jpg",
+        "kategori_id": 12,
+        "nama_kategori": "Fashion Muslim"
+    },
+    {
+        "id": 3,
+
+
+
+
+Powered by AITOPIA 
+Chat
+Ask
+Search
+Write
+Image
+ChatFile
+Vision
+Full Page
+
